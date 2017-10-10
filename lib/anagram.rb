@@ -19,7 +19,7 @@ binding.pry
   def match(anagrams)
     matches = []
     anagrams.map do |w|
-      w.split("").sort
+      word.sort == w.split("").sort
 
       if w2 == word
         matches << word
