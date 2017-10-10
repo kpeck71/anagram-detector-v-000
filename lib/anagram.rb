@@ -12,20 +12,20 @@ class Anagram
 #compare each word of that array to the word that the Anagram class is initialized with
 #split each word of the potential anagram into an array of letters using some_word.split("")
 #compare two arrays with == and also .sort the arrays to see if they contain the same elements in the same order (and are therefore equal)
-binding.pry
-  def match(anagrams)
-    anagrams.map do |w|
-      w2 = w.split("").sort
-      word2 = @word.split("").sort
-      if w2 == word2
-        @word
-      end
-    end
-  end
+
+  # def match(anagrams)
+  #   anagrams.map do |w|
+  #     w2 = w.split("").sort
+  #     word2 = @word.split("").sort
+  #     if w2 == word2
+  #       @word
+  #     end
+  #   end
+  # end
 
   def match(anagrams)
     matches = []
-    anagrams.map do |w|
+    anagrams.each do |w|
       w2 = w.split("").sort
       #word2 = word.split("").sort
       if w2 == word
