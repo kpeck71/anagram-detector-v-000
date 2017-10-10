@@ -23,5 +23,16 @@ class Anagram
     end
   end
 
+  def match(anagrams)
+    anagrams.map do |w|
+      w2 = w.split("").sort
+      word2 = @word.split("").sort
+      if w2 == @word
+        @word
+      end
+    end
+  end
+
+
 
 end
