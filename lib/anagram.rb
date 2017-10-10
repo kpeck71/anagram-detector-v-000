@@ -14,13 +14,13 @@ class Anagram
 #compare two arrays with == and also .sort the arrays to see if they contain the same elements in the same order (and are therefore equal)
 
   def match(anagrams)
-    anagrams.map do |w|
-      word2 = word.split("").sort
-      w2 = w.split("").sort
-      if w2 == word2
-        put word
-      end
-    end
+    # anagrams.map do |w|
+    #   word2 = word.split("").sort
+    #   w2 = w.split("").sort
+    #   if w2 == word2
+    #     put word
+    #   end
+    # end
   end
 
 
