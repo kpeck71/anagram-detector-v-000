@@ -17,7 +17,7 @@ class Anagram
     matches = []
     anagrams.each do |w|
       sorted = w.spit("").sort
-      if word.split("").sort == w.split("").sort
+      if word.split("").sort == sorted
         matches << word
       end
     end
