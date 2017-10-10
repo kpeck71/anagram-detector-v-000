@@ -18,7 +18,7 @@ class Anagram
       word2 = @word.split("").sort
       w2 = w.split("").sort
       if w2 == word2
-        puts @word
+        @word
       end
     end
   end
