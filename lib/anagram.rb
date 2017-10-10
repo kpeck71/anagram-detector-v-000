@@ -22,10 +22,10 @@ class Anagram
   #     end
   #   end
   # end
-
+binding.pry
   def match(anagrams)
     matches = []
-    binding.pry
+
     anagrams.each do |w|
       w2 = w.split("").sort
     end
