@@ -20,7 +20,7 @@ class Anagram
         matches << w
       end
     end
-    matches
+    #matches
   end
 
 
