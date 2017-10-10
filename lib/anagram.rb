@@ -20,7 +20,7 @@ binding.pry
     matches = []
     anagrams.map do |w|
       w.split("").sort
-      #word2 = word.split("").sort
+
       if w2 == word
         matches << word
       end
