@@ -15,7 +15,7 @@ class Anagram
 
   def match(word,anagrams)
     anagrams.map do |w|
-      word = word.split("").sort
+      word2 = word.split("").sort
       w = w.split("").sort
       if w == word
         put word
