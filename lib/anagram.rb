@@ -7,7 +7,6 @@ class Anagram
   def initialize(word)
     @word = word
   end
-binding.pry
 
 #iterate over the array of words (anagrams) that match takes as an argument
 #compare each word of that array to the word that the Anagram class is initialized with
