@@ -31,6 +31,7 @@ binding.pry
       if w2 == word
         matches << word
       end
+      matches
     end
   end
 
