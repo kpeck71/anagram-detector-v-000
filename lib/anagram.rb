@@ -27,6 +27,7 @@ class Anagram
     matches = []
     anagrams.each do |w|
       w2 = w.split("").sort
+    end
       #word2 = word.split("").sort
       if w2 == word
         matches << word
