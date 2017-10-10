@@ -16,7 +16,7 @@ binding.pry
     #compare two arrays with == and also .sort the arrays to see if they contain the same elements in the same order (and are therefore equal)
 
     anagrams.map do |w|
-      word2 = word.split("").sort
+      word = word.split("").sort
       w = w.split("").sort
       if w == word
         put word
