@@ -24,11 +24,12 @@ binding.pry
   end
 
   def match(anagrams)
+    matches = []
     anagrams.map do |w|
       w2 = w.split("").sort
-      word2 = @word.split("").sort
-      if w2 == @word
-        @word
+      #word2 = word.split("").sort
+      if w2 == word
+        matches << word
       end
     end
   end
