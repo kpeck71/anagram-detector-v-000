@@ -22,6 +22,7 @@ binding.pry
       if word.split("").sort == w.split("").sort
         matches << word
       end
+    end
       matches
     end
   end
