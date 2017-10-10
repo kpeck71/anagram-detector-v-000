@@ -18,7 +18,7 @@ binding.pry
 
   def match(anagrams)
     matches = []
-    anagrams.map do |w|
+    anagrams.each do |w|
       word.split("").sort == w.split("").sort
         matches << word
       end
